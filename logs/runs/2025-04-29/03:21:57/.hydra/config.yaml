@@ -1,0 +1,55 @@
+seed: 42
+output_dir: ${hydra:runtime.output_dir}
+logdir: logs/
+checkpoint: null
+datamodule:
+  _target_: binding_affinity.data.datamodule.DataModule
+  datadir: data/
+  batch_size: 64
+  graph_radius: 6
+  n_neighbors: 10
+  bipartite: true
+lightning:
+  _target_: binding_affinity.model.lightning.AffinityModel
+  model:
+    _target_: binding_affinity.model.modules.GraphNet
+    hidden_dim: 32
+    graph_layer:
+      _target_: torch_geometric.nn.conv.GraphConv
+      _partial_: true
+    n_layers: 3
+    dropout: 0.3
+  optimizer_fn:
+    _target_: torch.optim.Adam
+    _partial_: true
+    lr: 0.001
+    weight_decay: 1.0
+  loss_fn:
+    name: huber
+    params:
+      delta: 1.0
+callbacks:
+  model_checkpoint:
+    _target_: lightning.pytorch.callbacks.ModelCheckpoint
+    monitor: val/loss
+    mode: min
+    dirpath: weights/checkpoints
+    filename: epoch_{epoch:03d}
+    save_last: true
+    save_top_k: 1
+    auto_insert_metric_name: false
+trainer:
+  _target_: lightning.Trainer
+  accelerator: auto
+  devices: 1
+  max_epochs: 200
+  log_every_n_steps: 10
+  deterministic: true
+logger:
+  _target_: pytorch_lightning.loggers.tensorboard.TensorBoardLogger
+  save_dir: ${output_dir}/tensorboard/
+  name: null
+  log_graph: false
+  default_hp_metric: true
+  prefix: ''
+  version: ''

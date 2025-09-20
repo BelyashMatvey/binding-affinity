@@ -1,0 +1,204 @@
+[2025-05-02 10:51:07,182][pytorch_lightning.utilities.rank_zero][INFO] - GPU available: False, used: False
+[2025-05-02 10:51:07,182][pytorch_lightning.utilities.rank_zero][INFO] - TPU available: False, using: 0 TPU cores
+[2025-05-02 10:51:07,182][pytorch_lightning.utilities.rank_zero][INFO] - HPU available: False, using: 0 HPUs
+[2025-05-02 10:51:09,393][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 0, global step 5: 'val/PearsonCorrCoef' reached 0.41617 (best 0.41617), saving model to '/home/belyash/ML/binding-affinity-BelyashMatvey/weights/checkpoints_invariants/checkpoint_invariant_1/epoch_000.ckpt' as top 1
+[2025-05-02 10:51:10,034][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 1, global step 10: 'val/PearsonCorrCoef' reached 0.42156 (best 0.42156), saving model to '/home/belyash/ML/binding-affinity-BelyashMatvey/weights/checkpoints_invariants/checkpoint_invariant_1/epoch_001.ckpt' as top 1
+[2025-05-02 10:51:10,699][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 2, global step 15: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:51:11,369][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 3, global step 20: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:51:12,036][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 4, global step 25: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:51:12,689][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 5, global step 30: 'val/PearsonCorrCoef' reached 0.42192 (best 0.42192), saving model to '/home/belyash/ML/binding-affinity-BelyashMatvey/weights/checkpoints_invariants/checkpoint_invariant_1/epoch_005.ckpt' as top 1
+[2025-05-02 10:51:13,357][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 6, global step 35: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:51:13,990][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 7, global step 40: 'val/PearsonCorrCoef' reached 0.42492 (best 0.42492), saving model to '/home/belyash/ML/binding-affinity-BelyashMatvey/weights/checkpoints_invariants/checkpoint_invariant_1/epoch_007.ckpt' as top 1
+[2025-05-02 10:51:14,636][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 8, global step 45: 'val/PearsonCorrCoef' reached 0.42808 (best 0.42808), saving model to '/home/belyash/ML/binding-affinity-BelyashMatvey/weights/checkpoints_invariants/checkpoint_invariant_1/epoch_008.ckpt' as top 1
+[2025-05-02 10:51:15,296][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 9, global step 50: 'val/PearsonCorrCoef' reached 0.42962 (best 0.42962), saving model to '/home/belyash/ML/binding-affinity-BelyashMatvey/weights/checkpoints_invariants/checkpoint_invariant_1/epoch_009.ckpt' as top 1
+[2025-05-02 10:51:15,960][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 10, global step 55: 'val/PearsonCorrCoef' reached 0.43218 (best 0.43218), saving model to '/home/belyash/ML/binding-affinity-BelyashMatvey/weights/checkpoints_invariants/checkpoint_invariant_1/epoch_010.ckpt' as top 1
+[2025-05-02 10:51:16,604][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 11, global step 60: 'val/PearsonCorrCoef' reached 0.43557 (best 0.43557), saving model to '/home/belyash/ML/binding-affinity-BelyashMatvey/weights/checkpoints_invariants/checkpoint_invariant_1/epoch_011.ckpt' as top 1
+[2025-05-02 10:51:17,278][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 12, global step 65: 'val/PearsonCorrCoef' reached 0.43806 (best 0.43806), saving model to '/home/belyash/ML/binding-affinity-BelyashMatvey/weights/checkpoints_invariants/checkpoint_invariant_1/epoch_012.ckpt' as top 1
+[2025-05-02 10:51:17,915][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 13, global step 70: 'val/PearsonCorrCoef' reached 0.44019 (best 0.44019), saving model to '/home/belyash/ML/binding-affinity-BelyashMatvey/weights/checkpoints_invariants/checkpoint_invariant_1/epoch_013.ckpt' as top 1
+[2025-05-02 10:51:18,574][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 14, global step 75: 'val/PearsonCorrCoef' reached 0.44258 (best 0.44258), saving model to '/home/belyash/ML/binding-affinity-BelyashMatvey/weights/checkpoints_invariants/checkpoint_invariant_1/epoch_014.ckpt' as top 1
+[2025-05-02 10:51:19,211][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 15, global step 80: 'val/PearsonCorrCoef' reached 0.44611 (best 0.44611), saving model to '/home/belyash/ML/binding-affinity-BelyashMatvey/weights/checkpoints_invariants/checkpoint_invariant_1/epoch_015.ckpt' as top 1
+[2025-05-02 10:51:19,847][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 16, global step 85: 'val/PearsonCorrCoef' reached 0.44773 (best 0.44773), saving model to '/home/belyash/ML/binding-affinity-BelyashMatvey/weights/checkpoints_invariants/checkpoint_invariant_1/epoch_016.ckpt' as top 1
+[2025-05-02 10:51:20,471][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 17, global step 90: 'val/PearsonCorrCoef' reached 0.44784 (best 0.44784), saving model to '/home/belyash/ML/binding-affinity-BelyashMatvey/weights/checkpoints_invariants/checkpoint_invariant_1/epoch_017.ckpt' as top 1
+[2025-05-02 10:51:21,123][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 18, global step 95: 'val/PearsonCorrCoef' reached 0.44949 (best 0.44949), saving model to '/home/belyash/ML/binding-affinity-BelyashMatvey/weights/checkpoints_invariants/checkpoint_invariant_1/epoch_018.ckpt' as top 1
+[2025-05-02 10:51:21,761][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 19, global step 100: 'val/PearsonCorrCoef' reached 0.45134 (best 0.45134), saving model to '/home/belyash/ML/binding-affinity-BelyashMatvey/weights/checkpoints_invariants/checkpoint_invariant_1/epoch_019.ckpt' as top 1
+[2025-05-02 10:51:22,426][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 20, global step 105: 'val/PearsonCorrCoef' reached 0.45369 (best 0.45369), saving model to '/home/belyash/ML/binding-affinity-BelyashMatvey/weights/checkpoints_invariants/checkpoint_invariant_1/epoch_020.ckpt' as top 1
+[2025-05-02 10:51:23,158][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 21, global step 110: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:51:24,000][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 22, global step 115: 'val/PearsonCorrCoef' reached 0.45477 (best 0.45477), saving model to '/home/belyash/ML/binding-affinity-BelyashMatvey/weights/checkpoints_invariants/checkpoint_invariant_1/epoch_022.ckpt' as top 1
+[2025-05-02 10:51:24,644][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 23, global step 120: 'val/PearsonCorrCoef' reached 0.45691 (best 0.45691), saving model to '/home/belyash/ML/binding-affinity-BelyashMatvey/weights/checkpoints_invariants/checkpoint_invariant_1/epoch_023.ckpt' as top 1
+[2025-05-02 10:51:25,322][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 24, global step 125: 'val/PearsonCorrCoef' reached 0.45744 (best 0.45744), saving model to '/home/belyash/ML/binding-affinity-BelyashMatvey/weights/checkpoints_invariants/checkpoint_invariant_1/epoch_024.ckpt' as top 1
+[2025-05-02 10:51:26,003][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 25, global step 130: 'val/PearsonCorrCoef' reached 0.45925 (best 0.45925), saving model to '/home/belyash/ML/binding-affinity-BelyashMatvey/weights/checkpoints_invariants/checkpoint_invariant_1/epoch_025.ckpt' as top 1
+[2025-05-02 10:51:26,680][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 26, global step 135: 'val/PearsonCorrCoef' reached 0.46197 (best 0.46197), saving model to '/home/belyash/ML/binding-affinity-BelyashMatvey/weights/checkpoints_invariants/checkpoint_invariant_1/epoch_026.ckpt' as top 1
+[2025-05-02 10:51:27,336][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 27, global step 140: 'val/PearsonCorrCoef' reached 0.46388 (best 0.46388), saving model to '/home/belyash/ML/binding-affinity-BelyashMatvey/weights/checkpoints_invariants/checkpoint_invariant_1/epoch_027.ckpt' as top 1
+[2025-05-02 10:51:27,976][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 28, global step 145: 'val/PearsonCorrCoef' reached 0.46598 (best 0.46598), saving model to '/home/belyash/ML/binding-affinity-BelyashMatvey/weights/checkpoints_invariants/checkpoint_invariant_1/epoch_028.ckpt' as top 1
+[2025-05-02 10:51:28,651][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 29, global step 150: 'val/PearsonCorrCoef' reached 0.46797 (best 0.46797), saving model to '/home/belyash/ML/binding-affinity-BelyashMatvey/weights/checkpoints_invariants/checkpoint_invariant_1/epoch_029.ckpt' as top 1
+[2025-05-02 10:51:29,302][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 30, global step 155: 'val/PearsonCorrCoef' reached 0.47018 (best 0.47018), saving model to '/home/belyash/ML/binding-affinity-BelyashMatvey/weights/checkpoints_invariants/checkpoint_invariant_1/epoch_030.ckpt' as top 1
+[2025-05-02 10:51:29,983][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 31, global step 160: 'val/PearsonCorrCoef' reached 0.47059 (best 0.47059), saving model to '/home/belyash/ML/binding-affinity-BelyashMatvey/weights/checkpoints_invariants/checkpoint_invariant_1/epoch_031.ckpt' as top 1
+[2025-05-02 10:51:30,639][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 32, global step 165: 'val/PearsonCorrCoef' reached 0.47127 (best 0.47127), saving model to '/home/belyash/ML/binding-affinity-BelyashMatvey/weights/checkpoints_invariants/checkpoint_invariant_1/epoch_032.ckpt' as top 1
+[2025-05-02 10:51:31,302][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 33, global step 170: 'val/PearsonCorrCoef' reached 0.47209 (best 0.47209), saving model to '/home/belyash/ML/binding-affinity-BelyashMatvey/weights/checkpoints_invariants/checkpoint_invariant_1/epoch_033.ckpt' as top 1
+[2025-05-02 10:51:31,956][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 34, global step 175: 'val/PearsonCorrCoef' reached 0.47418 (best 0.47418), saving model to '/home/belyash/ML/binding-affinity-BelyashMatvey/weights/checkpoints_invariants/checkpoint_invariant_1/epoch_034.ckpt' as top 1
+[2025-05-02 10:51:32,638][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 35, global step 180: 'val/PearsonCorrCoef' reached 0.47581 (best 0.47581), saving model to '/home/belyash/ML/binding-affinity-BelyashMatvey/weights/checkpoints_invariants/checkpoint_invariant_1/epoch_035.ckpt' as top 1
+[2025-05-02 10:51:33,318][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 36, global step 185: 'val/PearsonCorrCoef' reached 0.47729 (best 0.47729), saving model to '/home/belyash/ML/binding-affinity-BelyashMatvey/weights/checkpoints_invariants/checkpoint_invariant_1/epoch_036.ckpt' as top 1
+[2025-05-02 10:51:33,989][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 37, global step 190: 'val/PearsonCorrCoef' reached 0.47873 (best 0.47873), saving model to '/home/belyash/ML/binding-affinity-BelyashMatvey/weights/checkpoints_invariants/checkpoint_invariant_1/epoch_037.ckpt' as top 1
+[2025-05-02 10:51:34,659][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 38, global step 195: 'val/PearsonCorrCoef' reached 0.47969 (best 0.47969), saving model to '/home/belyash/ML/binding-affinity-BelyashMatvey/weights/checkpoints_invariants/checkpoint_invariant_1/epoch_038.ckpt' as top 1
+[2025-05-02 10:51:35,382][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 39, global step 200: 'val/PearsonCorrCoef' reached 0.48231 (best 0.48231), saving model to '/home/belyash/ML/binding-affinity-BelyashMatvey/weights/checkpoints_invariants/checkpoint_invariant_1/epoch_039.ckpt' as top 1
+[2025-05-02 10:51:36,077][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 40, global step 205: 'val/PearsonCorrCoef' reached 0.48281 (best 0.48281), saving model to '/home/belyash/ML/binding-affinity-BelyashMatvey/weights/checkpoints_invariants/checkpoint_invariant_1/epoch_040.ckpt' as top 1
+[2025-05-02 10:51:36,768][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 41, global step 210: 'val/PearsonCorrCoef' reached 0.48342 (best 0.48342), saving model to '/home/belyash/ML/binding-affinity-BelyashMatvey/weights/checkpoints_invariants/checkpoint_invariant_1/epoch_041.ckpt' as top 1
+[2025-05-02 10:51:37,561][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 42, global step 215: 'val/PearsonCorrCoef' reached 0.48430 (best 0.48430), saving model to '/home/belyash/ML/binding-affinity-BelyashMatvey/weights/checkpoints_invariants/checkpoint_invariant_1/epoch_042.ckpt' as top 1
+[2025-05-02 10:51:38,295][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 43, global step 220: 'val/PearsonCorrCoef' reached 0.48529 (best 0.48529), saving model to '/home/belyash/ML/binding-affinity-BelyashMatvey/weights/checkpoints_invariants/checkpoint_invariant_1/epoch_043.ckpt' as top 1
+[2025-05-02 10:51:38,968][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 44, global step 225: 'val/PearsonCorrCoef' reached 0.48727 (best 0.48727), saving model to '/home/belyash/ML/binding-affinity-BelyashMatvey/weights/checkpoints_invariants/checkpoint_invariant_1/epoch_044.ckpt' as top 1
+[2025-05-02 10:51:39,630][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 45, global step 230: 'val/PearsonCorrCoef' reached 0.49117 (best 0.49117), saving model to '/home/belyash/ML/binding-affinity-BelyashMatvey/weights/checkpoints_invariants/checkpoint_invariant_1/epoch_045.ckpt' as top 1
+[2025-05-02 10:51:40,274][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 46, global step 235: 'val/PearsonCorrCoef' reached 0.49388 (best 0.49388), saving model to '/home/belyash/ML/binding-affinity-BelyashMatvey/weights/checkpoints_invariants/checkpoint_invariant_1/epoch_046.ckpt' as top 1
+[2025-05-02 10:51:40,979][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 47, global step 240: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:51:41,697][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 48, global step 245: 'val/PearsonCorrCoef' reached 0.49576 (best 0.49576), saving model to '/home/belyash/ML/binding-affinity-BelyashMatvey/weights/checkpoints_invariants/checkpoint_invariant_1/epoch_048.ckpt' as top 1
+[2025-05-02 10:51:42,371][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 49, global step 250: 'val/PearsonCorrCoef' reached 0.49576 (best 0.49576), saving model to '/home/belyash/ML/binding-affinity-BelyashMatvey/weights/checkpoints_invariants/checkpoint_invariant_1/epoch_049.ckpt' as top 1
+[2025-05-02 10:51:43,040][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 50, global step 255: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:51:43,696][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 51, global step 260: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:51:44,368][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 52, global step 265: 'val/PearsonCorrCoef' reached 0.49591 (best 0.49591), saving model to '/home/belyash/ML/binding-affinity-BelyashMatvey/weights/checkpoints_invariants/checkpoint_invariant_1/epoch_052.ckpt' as top 1
+[2025-05-02 10:51:45,051][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 53, global step 270: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:51:45,716][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 54, global step 275: 'val/PearsonCorrCoef' reached 0.49802 (best 0.49802), saving model to '/home/belyash/ML/binding-affinity-BelyashMatvey/weights/checkpoints_invariants/checkpoint_invariant_1/epoch_054.ckpt' as top 1
+[2025-05-02 10:51:46,424][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 55, global step 280: 'val/PearsonCorrCoef' reached 0.50382 (best 0.50382), saving model to '/home/belyash/ML/binding-affinity-BelyashMatvey/weights/checkpoints_invariants/checkpoint_invariant_1/epoch_055.ckpt' as top 1
+[2025-05-02 10:51:47,090][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 56, global step 285: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:51:47,754][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 57, global step 290: 'val/PearsonCorrCoef' reached 0.50831 (best 0.50831), saving model to '/home/belyash/ML/binding-affinity-BelyashMatvey/weights/checkpoints_invariants/checkpoint_invariant_1/epoch_057.ckpt' as top 1
+[2025-05-02 10:51:48,440][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 58, global step 295: 'val/PearsonCorrCoef' reached 0.51153 (best 0.51153), saving model to '/home/belyash/ML/binding-affinity-BelyashMatvey/weights/checkpoints_invariants/checkpoint_invariant_1/epoch_058.ckpt' as top 1
+[2025-05-02 10:51:49,114][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 59, global step 300: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:51:49,756][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 60, global step 305: 'val/PearsonCorrCoef' reached 0.51200 (best 0.51200), saving model to '/home/belyash/ML/binding-affinity-BelyashMatvey/weights/checkpoints_invariants/checkpoint_invariant_1/epoch_060.ckpt' as top 1
+[2025-05-02 10:51:50,459][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 61, global step 310: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:51:51,142][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 62, global step 315: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:51:51,820][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 63, global step 320: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:51:52,485][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 64, global step 325: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:51:53,224][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 65, global step 330: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:51:54,027][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 66, global step 335: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:51:54,732][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 67, global step 340: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:51:55,418][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 68, global step 345: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:51:56,090][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 69, global step 350: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:51:56,737][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 70, global step 355: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:51:57,417][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 71, global step 360: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:51:58,093][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 72, global step 365: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:51:58,779][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 73, global step 370: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:51:59,438][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 74, global step 375: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:52:00,099][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 75, global step 380: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:52:00,739][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 76, global step 385: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:52:01,410][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 77, global step 390: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:52:02,079][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 78, global step 395: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:52:02,753][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 79, global step 400: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:52:03,445][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 80, global step 405: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:52:04,129][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 81, global step 410: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:52:04,832][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 82, global step 415: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:52:05,503][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 83, global step 420: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:52:06,173][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 84, global step 425: 'val/PearsonCorrCoef' reached 0.51330 (best 0.51330), saving model to '/home/belyash/ML/binding-affinity-BelyashMatvey/weights/checkpoints_invariants/checkpoint_invariant_1/epoch_084.ckpt' as top 1
+[2025-05-02 10:52:06,845][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 85, global step 430: 'val/PearsonCorrCoef' reached 0.51922 (best 0.51922), saving model to '/home/belyash/ML/binding-affinity-BelyashMatvey/weights/checkpoints_invariants/checkpoint_invariant_1/epoch_085-v1.ckpt' as top 1
+[2025-05-02 10:52:07,538][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 86, global step 435: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:52:08,303][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 87, global step 440: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:52:09,084][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 88, global step 445: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:52:09,812][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 89, global step 450: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:52:10,473][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 90, global step 455: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:52:11,154][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 91, global step 460: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:52:11,829][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 92, global step 465: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:52:12,505][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 93, global step 470: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:52:13,183][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 94, global step 475: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:52:13,827][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 95, global step 480: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:52:14,512][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 96, global step 485: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:52:15,187][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 97, global step 490: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:52:15,859][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 98, global step 495: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:52:16,535][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 99, global step 500: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:52:17,198][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 100, global step 505: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:52:17,842][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 101, global step 510: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:52:18,509][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 102, global step 515: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:52:19,154][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 103, global step 520: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:52:19,838][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 104, global step 525: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:52:20,507][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 105, global step 530: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:52:21,195][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 106, global step 535: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:52:21,878][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 107, global step 540: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:52:22,561][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 108, global step 545: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:52:23,292][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 109, global step 550: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:52:23,983][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 110, global step 555: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:52:24,656][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 111, global step 560: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:52:25,303][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 112, global step 565: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:52:25,964][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 113, global step 570: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:52:26,648][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 114, global step 575: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:52:27,340][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 115, global step 580: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:52:28,001][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 116, global step 585: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:52:28,684][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 117, global step 590: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:52:29,343][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 118, global step 595: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:52:30,005][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 119, global step 600: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:52:30,684][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 120, global step 605: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:52:31,332][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 121, global step 610: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:52:31,988][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 122, global step 615: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:52:32,657][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 123, global step 620: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:52:33,329][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 124, global step 625: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:52:34,010][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 125, global step 630: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:52:34,676][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 126, global step 635: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:52:35,341][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 127, global step 640: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:52:36,013][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 128, global step 645: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:52:36,675][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 129, global step 650: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:52:37,356][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 130, global step 655: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:52:38,038][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 131, global step 660: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:52:38,790][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 132, global step 665: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:52:39,481][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 133, global step 670: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:52:40,149][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 134, global step 675: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:52:40,806][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 135, global step 680: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:52:41,464][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 136, global step 685: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:52:42,122][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 137, global step 690: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:52:42,803][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 138, global step 695: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:52:43,480][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 139, global step 700: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:52:44,143][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 140, global step 705: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:52:44,801][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 141, global step 710: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:52:45,501][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 142, global step 715: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:52:46,180][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 143, global step 720: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:52:46,857][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 144, global step 725: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:52:47,541][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 145, global step 730: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:52:48,208][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 146, global step 735: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:52:48,906][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 147, global step 740: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:52:49,596][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 148, global step 745: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:52:50,254][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 149, global step 750: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:52:50,962][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 150, global step 755: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:52:51,639][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 151, global step 760: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:52:52,316][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 152, global step 765: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:52:52,996][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 153, global step 770: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:52:53,741][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 154, global step 775: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:52:54,404][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 155, global step 780: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:52:55,082][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 156, global step 785: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:52:55,787][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 157, global step 790: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:52:56,477][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 158, global step 795: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:52:57,168][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 159, global step 800: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:52:57,856][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 160, global step 805: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:52:58,513][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 161, global step 810: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:52:59,193][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 162, global step 815: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:52:59,845][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 163, global step 820: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:53:00,559][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 164, global step 825: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:53:01,245][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 165, global step 830: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:53:01,922][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 166, global step 835: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:53:02,597][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 167, global step 840: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:53:03,250][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 168, global step 845: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:53:03,918][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 169, global step 850: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:53:04,570][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 170, global step 855: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:53:05,234][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 171, global step 860: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:53:05,874][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 172, global step 865: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:53:06,529][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 173, global step 870: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:53:07,186][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 174, global step 875: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:53:07,826][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 175, global step 880: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:53:08,537][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 176, global step 885: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:53:09,248][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 177, global step 890: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:53:09,918][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 178, global step 895: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:53:10,595][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 179, global step 900: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:53:11,246][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 180, global step 905: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:53:11,942][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 181, global step 910: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:53:12,629][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 182, global step 915: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:53:13,280][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 183, global step 920: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:53:13,982][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 184, global step 925: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:53:14,668][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 185, global step 930: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:53:15,361][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 186, global step 935: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:53:16,020][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 187, global step 940: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:53:16,721][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 188, global step 945: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:53:17,418][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 189, global step 950: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:53:18,117][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 190, global step 955: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:53:18,824][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 191, global step 960: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:53:19,502][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 192, global step 965: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:53:20,200][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 193, global step 970: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:53:20,883][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 194, global step 975: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:53:21,546][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 195, global step 980: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:53:22,206][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 196, global step 985: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:53:22,859][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 197, global step 990: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:53:23,626][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 198, global step 995: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:53:24,338][pytorch_lightning.utilities.rank_zero][INFO] - Epoch 199, global step 1000: 'val/PearsonCorrCoef' was not in top 1
+[2025-05-02 10:53:24,359][pytorch_lightning.utilities.rank_zero][INFO] - `Trainer.fit` stopped: `max_epochs=200` reached.

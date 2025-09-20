@@ -1,0 +1,4 @@
+[2025-04-29 03:08:04,860][pytorch_lightning.utilities.rank_zero][INFO] - GPU available: False, used: False
+[2025-04-29 03:08:04,861][pytorch_lightning.utilities.rank_zero][INFO] - TPU available: False, using: 0 TPU cores
+[2025-04-29 03:08:04,861][pytorch_lightning.utilities.rank_zero][INFO] - HPU available: False, using: 0 HPUs
+[2025-04-29 03:08:38,630][pytorch_lightning.utilities.rank_zero][INFO] - `Trainer.fit` stopped: `max_epochs=200` reached.
