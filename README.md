@@ -1,60 +1,58 @@
-# Предсказание свободной энергии связывания
+# Prediction of binding free energy
 
-## Описание датасета
-За основу датасета взят [SKEMPI v2.0](https://life.bsc.es/pid/skempi2), из структур комплекса оставлены атомы из интерфейса взаимодействия (находящиеся на расстоянии не более 4.0 ангстремов от белка-партнёра) и сохранены в JSON в следующем формате:
+## Dataset description
+The dataset is based on [SKEMPI v2.0](https://life.bsc.es/pid/skempi2), atoms from the interaction interface (located at a distance of no more than 4.0 angstroms from the partner protein) were retained from the complex structures and saved in JSON in the following format:
 ```python
 [
     {
         "uid": "1ahw",           # RCSB PDB ID
         "interface_graph": {
-            "coords": ...,       # координаты атомов, N x 3
-            "atoms": ...,        # названия атомов, N
-            "residues": ...,     # названия аминокислот, N
-            "chain_ids": ...,    # идентификаторы полипептидных цепей, N
-            "is_receptor": ...,  # 0 — атом относится к белку-рецептору, 1 — к белку-лиганду
+            "coords": ...,       # atomic coordinates, N x 3
+            "atoms": ...,        # atoms, N
+            "residues": ...,     # aminoacids names, N
+            "chain_ids": ...,    # chain identifiers, N
+            "is_receptor": ...,  # 0 — atom in receptor, 1 — atom in ligand
         },
-        "affinity": -12.0        # свободная энергия связывания
+        "affinity": -12.0        # Free energy of binding
     }
 ]
 ```
-Выборки лежат в папке `data`.
+The samples are located in the `data` folder.
 
-## Окружение
 
-Для создания окружения использовался pyenv ввиду того, что дефолтная сборка _Poetry_ не позволяла собрать 
-рабочее окружение. Для данного проекта использовался _Python 3.10.13_. Библиотеки, необходимые для запуска данного проекта
-указаны в файле `requirements.txt` в папке `requirements`.
+## Environment
 
-## Тренировка сети
+Pyenv was used to create the environment because the default _Poetry_ build did not allow for building a working environment. Python 3.10.13 was used for this project. The libraries required to run this project are listed in the `requirements.txt` file in the `requirements` folder.
 
-После создания и активации виртуального окружения необходимо обучить модель. Настройка обучения происходит через
+## Network Training
+
+After creating and activating the virtual environment, you need to train the model. Training is configured via
 `train.yaml`.
-Для этого можно использовать следующие команды:
+To do this, you can use the following commands:
 ```commandline
 python -m scripts.train
 ```
-Данная команда запустит обучение на модели *GraphNet* из _modules_. Для того чтобы запустить обучение на более 
-усовершенствованной модели *InvariantGNN* необходимо добавить флаг `--config_name` с 
-названием, куда передаем файл с конфигурацией (*train_invariant*):
+This command will run training on the *GraphNet* model from _modules_. To run training on the more advanced *InvariantGNN* model, you need to add the `--config_name` flag with the 
+name of the configuration file (*train_invariant*):
 ```commandline
 python -m scripts.train --config_name train_invariant
 ```
 
-Также вы сможете посмотреть результаты в _TensorBoard_. Выглядеть это будет примерно так:
+You can also view the results in TensorBoard. It will look something like this:
 !['invariant.png'](./images/invariant.png)
-Также там будет множество других графиков которые вы можете по разному настроить.
+There will also be many other graphs that you can customize.
 
-## Тестирование сети
+## Network Testing
 
-После обучения сети её необходимо протестировать. Можно тестировать как и *GraphNet*, 
-так и *InvariantGNN*.
+After training the network, it needs to be tested. You can test both *GraphNet*
+and *InvariantGNN*.
 
-Пример вывода метрик для модели *GraphNet*.
+Example of metrics output for the *GraphNet* model.
 !['metrics.png'](./images/metrics.png)
-Пример вывода метрик для модели *InvariantGNN*.
+Example of metrics output for the *InvariantGNN* model.
 !['invariant_pearson.png'](./images/invariant_perason.png)
 
-Запуск аналогичен c тренировкой:
+The launch is similar to the training:
 ```commandline
 python -m scripts.inference
 ```
