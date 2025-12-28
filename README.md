@@ -60,10 +60,10 @@ python -m scripts.inference
 python -m scripts.inference --config_name train_invariant
 ```
 
-## Вывод примера
+## Example output
 
-Для вывода примера достаточно через *Jupyter Notebook* запустить файл `interface_graph.ipynb`
-и там последовательно запустить чанки для отображения структуры.
+To output the example, simply run the file `interface_graph.ipynb` in *Jupyter Notebook*
+and run the chunks sequentially to display the structure.
 !['structure'](./images/cool.png)
-## Автор
-Беляков Матвей
+## Author
+Matvey Belyakov
